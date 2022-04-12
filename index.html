@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountdownTimer</title>
+    <script src="https://kit.fontawesome.com/17511ca282.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="counter-app">
+
+
+        <div class="app-body">
+            <div class="app-head">
+                <img src="/CountdownTimer logo.svg" alt="CountdownTimer Logo">
+            </div>
+            <div class="settings-btn">Set Timer</div>
+            <div class="settings">
+                <label for="event-name">Event Name:</label>
+                <input type="text" id="event-name" value="New Year">
+                <table class="date">
+                    <tr>
+                        <td><label for="event-day">Day:</label></td>
+                        <td><label for="event-month">Month:</label></td>
+                        <td><label for="event-year">Year:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="event-day" maxlength="2" value="1"></td>
+                        <td><input type="number" id="event-month" maxlength="2" value="1"></td>
+                        <td><input type="number" id="event-year" maxlength="4" value="2023"></td>
+                    </tr>
+                </table>
+                <button class="save">Save</button>
+            </div>
+            <div class="time-section">
+                <!-- <div class="animation">
+                    <img src="/countdown.gif" alt="countdown animation">
+                </div> -->
+                <div class="loadingio-spinner-ripple-93t89zn9zlv">
+                    <div class="ldio-k6l78zihod">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <h3><span class="event">New Year</span> in:</h3>
+                <div class="time-cards">
+                    <div class="card">
+                        <p class="days-count number">1</p>
+                        <p class="card-title">Days</p>
+                    </div>
+                    <div class="card">
+                        <p class="hours-count number">1</p>
+                        <p class="card-title">Hours</p>
+                    </div>
+                    <div class="card">
+                        <p class="minutes-count number">1</p>
+                        <p class="card-title">Minutes</p>
+                    </div>
+                    <div class="card">
+                        <p class="seconds-count number">1</p>
+                        <p class="card-title">Seconds</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
